@@ -10,9 +10,10 @@ import { SharedModule } from './shared/shared.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent, XLargeDirective } from './app.component';
 
+import {TestComponent} from 'test';
 
 @NgModule({
-  declarations: [ AppComponent, XLargeDirective ],
+  declarations: [ AppComponent, XLargeDirective, TestComponent ],
   imports: [
     SharedModule,
     HomeModule,
